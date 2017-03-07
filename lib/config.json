@@ -1,0 +1,68 @@
+{
+	"Night": {
+		"title": "Nighttime Appearance",
+		"type": "object",
+		"properties": {
+			"ui": {
+				"title": "UI Theme",
+				"description": "UI theme to use at night.",
+				"type": "string",
+				"default": "one-dark-ui",
+				"enum": []
+			},
+			"syntax": {
+				"title": "Syntax Theme",
+				"description": "Syntax theme to use at night.",
+				"type": "string",
+				"default": "one-dark-syntax",
+				"enum": []
+			}
+		}
+	},
+	"Day": {
+		"title": "Daytime Appearance",
+		"type": "object",
+		"properties": {
+			"ui": {
+				"title": "UI Theme",
+				"description": "UI theme to use during the day.",
+				"type": "string",
+				"default": "one-light-ui",
+				"pattern": "/.*-ui$/",
+				"enum": []
+			},
+			"syntax": {
+				"title": "Syntax Theme",
+				"description": "Syntax theme to use during the day.",
+				"type": "string",
+				"default": "one-light-syntax",
+				"enum": []
+			}
+		}
+	},
+	"Schedule": {
+		"type": "object",
+		"properties": {
+			"auto": {
+				"title": "Automatic",
+				"description": "Automatically update the scheduled sunrise/sunset times daily. If this setting is disabled, then the themes will change based on the start and end times below.",
+				"default": false,
+				"type": "boolean"
+			},
+			"start": {
+				"title": "Manual Start Time",
+				"description": "Night mode begins at this time. Must follow HH:MM format.",
+				"type": "string",
+				"pattern": "/.*:.*/",
+				"default": "18:00"
+			},
+			"end": {
+				"title": "Manual End Time",
+				"description": "Night mode ends at this time. Must follow HH:MM format.",
+				"type": "string",
+				"pattern": "/.*:.*/",
+				"default": "05:00"
+			}
+		}
+	}
+}

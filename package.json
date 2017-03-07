@@ -2,13 +2,18 @@
   "name": "night-light",
   "main": "./lib/night-light",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Change themes automatically by time of day",
   "keywords": [
+    "atom",
+    "ui",
+    "themes",
+    "night"
   ],
-  "activationCommands": {
-    "atom-workspace": "night-light:toggle"
+  "repository": "https://github.com/robbawebba/night-light",
+  "author": {
+    "name": "Rob Weber",
+    "url": "https://github.com/robbawebba"
   },
-  "repository": "https://github.com/atom/night-light",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

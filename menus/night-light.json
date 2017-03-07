@@ -1,18 +1,10 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle night-light",
-        "command": "night-light:toggle"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Packages",
       "submenu": [
         {
-          "label": "night-light",
+          "label": "Night Light",
           "submenu": [
             {
               "label": "Toggle",
