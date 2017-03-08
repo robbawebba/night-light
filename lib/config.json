@@ -8,14 +8,16 @@
 				"description": "UI theme to use at night.",
 				"type": "string",
 				"default": "one-dark-ui",
-				"enum": []
+				"enum": [],
+				"order": 1
 			},
 			"syntax": {
 				"title": "Syntax Theme",
 				"description": "Syntax theme to use at night.",
 				"type": "string",
 				"default": "one-dark-syntax",
-				"enum": []
+				"enum": [],
+				"order": 2
 			}
 		}
 	},
@@ -29,14 +31,16 @@
 				"type": "string",
 				"default": "one-light-ui",
 				"pattern": "/.*-ui$/",
-				"enum": []
+				"enum": [],
+				"order": 1
 			},
 			"syntax": {
 				"title": "Syntax Theme",
 				"description": "Syntax theme to use during the day.",
 				"type": "string",
 				"default": "one-light-syntax",
-				"enum": []
+				"enum": [],
+				"order": 2
 			}
 		}
 	},
@@ -47,21 +51,24 @@
 				"title": "Automatic",
 				"description": "Automatically update the scheduled sunrise/sunset times daily. If this setting is disabled, then the themes will change based on the start and end times below.",
 				"default": false,
-				"type": "boolean"
+				"type": "boolean",
+				"order": 1
 			},
 			"start": {
-				"title": "Manual Start Time",
+				"title": "Manual Sunset",
 				"description": "Night mode begins at this time. Must follow HH:MM format.",
 				"type": "string",
 				"pattern": "/.*:.*/",
-				"default": "18:00"
+				"default": "18:00",
+				"order": 2
 			},
 			"end": {
-				"title": "Manual End Time",
+				"title": "Manual Sunrise",
 				"description": "Night mode ends at this time. Must follow HH:MM format.",
 				"type": "string",
 				"pattern": "/.*:.*/",
-				"default": "05:00"
+				"default": "05:00",
+				"order": 3
 			}
 		}
 	}
