@@ -1,7 +1,8 @@
 {
-	"Night": {
+	"night": {
 		"title": "Nighttime Appearance",
 		"type": "object",
+		"order": 2,
 		"properties": {
 			"ui": {
 				"title": "UI Theme",
@@ -21,9 +22,10 @@
 			}
 		}
 	},
-	"Day": {
+	"day": {
 		"title": "Daytime Appearance",
 		"type": "object",
+		"order": 1,
 		"properties": {
 			"ui": {
 				"title": "UI Theme",
@@ -44,8 +46,10 @@
 			}
 		}
 	},
-	"Schedule": {
+	"schedule": {
+		"title": "Schedule",
 		"type": "object",
+		"order": 3,
 		"properties": {
 			"auto": {
 				"title": "Automatic",
@@ -69,6 +73,32 @@
 				"pattern": "/.*:.*/",
 				"default": "05:00",
 				"order": 3
+			}
+		}
+	},
+	"location": {
+		"title": "Location",
+		"type": "object",
+		"order": 4,
+		"properties": {
+			"auto": {
+				"title": "Auto-update Location",
+				"description": "Automatically refresh the latitute and longitude based on your location. If this is disabled, then please update your latitude and longitude below.",
+				"type": "boolean",
+				"order": 1,
+				"default": true
+			},
+			"lat": {
+				"title": "Latitude",
+				"type": "number",
+				"order": 2,
+				"default": 40.714623
+			},
+			"lng": {
+				"title": "Longitude",
+				"type": "number",
+				"order": 3,
+				"default": -74.006605
 			}
 		}
 	}

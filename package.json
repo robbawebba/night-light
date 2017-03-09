@@ -2,7 +2,7 @@
   "name": "night-light",
   "main": "./lib/night-light",
   "version": "0.0.0",
-  "description": "Change themes automatically by time of day",
+  "description": "Heliocentric theme manager - automatically change themes by time of day.",
   "keywords": [
     "atom",
     "ui",
@@ -19,5 +19,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "request": "^2.80.0",
+    "solar-calc": "^1.1.0"
   }
 }
