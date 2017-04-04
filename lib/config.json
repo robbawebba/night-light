@@ -52,7 +52,7 @@
 		"order": 3,
 		"properties": {
 			"auto": {
-				"title": "Automatic",
+				"title": "Auto-update Sunset and Sunrise",
 				"description": "Automatically update the scheduled sunrise/sunset times daily. If this setting is disabled, then the themes will change based on the start and end times below.",
 				"default": false,
 				"type": "boolean",
