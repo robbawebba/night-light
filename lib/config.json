@@ -54,7 +54,7 @@
 			"auto": {
 				"title": "Auto-update Sunset and Sunrise",
 				"description": "Automatically update the scheduled sunrise/sunset times daily. If this setting is disabled, then the themes will change based on the start and end times below.",
-				"default": false,
+				"default": true,
 				"type": "boolean",
 				"order": 1
 			},
