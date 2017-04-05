@@ -9,9 +9,7 @@
     "themes",
     "night",
     "switch",
-    "day",
-    "lux",
-    "flux"
+    "day"
   ],
   "repository": "https://github.com/robbawebba/night-light",
   "author": {
