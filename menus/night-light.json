@@ -7,7 +7,7 @@
           "label": "Night Light",
           "submenu": [
             {
-              "label": "Toggle Night Mode",
+              "label": "Toggle",
               "command": "night-light:toggle"
             }
           ]

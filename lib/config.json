@@ -83,7 +83,7 @@
 		"properties": {
 			"auto": {
 				"title": "Auto-update Location",
-				"description": "Automatically refresh the latitute and longitude based on your location. If this is disabled, then please update your latitude and longitude below.",
+				"description": "Automatically refresh the latitute and longitude based on your location. If this is disabled, then please update your latitude and longitude below. For best results, please use a location in the same time zone as this computer.",
 				"type": "boolean",
 				"order": 1,
 				"default": true
