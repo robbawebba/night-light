@@ -2,7 +2,7 @@
   "name": "night-light",
   "main": "./lib/night-light",
   "version": "0.0.0",
-  "description": "Heliocentric theme manager - automatically change themes by time of day.",
+  "description": "Heliocentric theme manager - automatically change themes with each sunset and sunrise.",
   "keywords": [
     "atom",
     "ui",

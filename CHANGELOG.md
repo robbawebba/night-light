@@ -1,4 +1,4 @@
-## 1.0.0 - 5 April 2016 - First public release!
+## 1.0.0 - 6 April 2016 - First public release!
 ###### Features
 * **:round_pushpin: Automatic or manual location updating**
 

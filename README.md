@@ -14,7 +14,7 @@ Night Light automatically updates your Atom themes with each sunrise and sunset 
 * Customize your daytime and nighttime appearances based on your installed UI and syntax themes.
 
 #### :computer: Manually switch between themes
-* Use `Ctrl + Alt + m` to manually toggle between nighttime and daytime themes at your leisure, or create your own keybinding in your keymap.
+* Use `Ctrl + Alt + m` to manually toggle between nighttime and daytime themes at your leisure, or create your own keybinding in your keymap. 
 
 ## Installing Night Light
 From inside Atom, go to `File > Settings > Install`, type "night-light" into the search box, and click install!
