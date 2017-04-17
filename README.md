@@ -14,10 +14,11 @@ Night Light automatically updates your Atom themes with each sunrise and sunset 
 * Customize your daytime and nighttime appearances based on your installed UI and syntax themes.
 
 #### :computer: Manually switch between themes
-* Use `Ctrl + Alt + m` to manually toggle between nighttime and daytime themes at your leisure, or create your own keybinding in your keymap. 
+* Use `Ctrl + Alt + m` to manually toggle between nighttime and daytime themes at your leisure, or create your own keybinding in your keymap.
 
 ## Installing Night Light
-From inside Atom, go to `File > Settings > Install`, type "night-light" into the search box, and click install!
+* From the command line: `apm install night-light`.
+* From inside Atom: Go to `File > Settings > Install`, type "night-light" into the search box, and click install!
 
 ## Development
 #### Quick and dirty setup
@@ -31,13 +32,12 @@ This will clone the night-light repository to `~/github` unless you set the `ATO
 If you've already forked the repo and cloned it somewhere else, you'll want to use `apm link --dev` within the package directory, followed by `apm install` to get dependencies.
 
 #### Workflow
-**Fork and submit a PR** is the preferred workflow. First add the original repo as a remote to pull upstream changes:
+Feel free to fork this project and clone your fork for developing! **Hint**: Add the original repo as a remote to pull upstream changes:
 ```
 git remote add upstream https://github.com/robbawebba/night-light.git
 git pull upstream develop
 ```
-Make sure you pull upstream changes before beginning to code in the future.
 
 After pulling upstream changes, run `apm update` and `atom --dev` to start working in dev mode.
 
-To start hacking, create a new branch for your work then either submit a Pull Request when done or when you want some feedback! Thank you in advance for your work! It's greatly appreciated :)
+To start hacking, create a new branch for your work then submit a Pull Request when done or when you want some feedback! Thank you in advance for your work! It's greatly appreciated :)
