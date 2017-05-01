@@ -1,4 +1,13 @@
-## 1.0.0 - 6 April 2016 - First public release!
+## 1.0.1 - 1 May 2017 - First Patch!
+This patch, although small, will hopefully improve the use of the package settings! It's been awhile since the release of this package, so I thought it would be a good time to release a patch :smile:
+###### Bug Fixes
+* Changes to the nighttime and daytime themes in package settings now update the editor themes accordingly (See PR [#5](https://github.com/robbawebba/night-light/pull/5))
+
+###### Miscellaneous
+* Update `README.md`
+* Update `package.json` with new keywords
+
+## 1.0.0 - 6 April 2017 - First public release!
 ###### Features
 * **:round_pushpin: Automatic or manual location updating**
 
@@ -15,5 +24,5 @@
 
   Use `Ctrl + Alt + m` to manually toggle between nighttime and daytime themes at your leisure, or create your own keybinding in your keymap.
 
-###### Bug fixes
+###### Bug Fixes
 * None (yet :wink:)

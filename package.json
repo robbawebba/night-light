@@ -9,7 +9,11 @@
     "themes",
     "night",
     "switch",
-    "day"
+    "day",
+    "sunset",
+    "sunrise",
+    "theme",
+    "location"
   ],
   "repository": "https://github.com/robbawebba/night-light",
   "author": {
