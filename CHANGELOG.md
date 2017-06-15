@@ -1,3 +1,12 @@
+## 1.0.2 - 15 June 2017 
+Although I haven't heard from any users on this issue, I noticed with my last update that the package settings had reset to their default values after updating. I didn't anticipate this being an issue since the user's custom settings (Day and Night themes being the most important) are stored in their `config.cson` file. So this prompted me to add serialization to the package so certain data persists across Atom sessions. If anyone notices something funky with this update, could you please create an issue on the repository? Thanks! :smile:
+###### Features 
+* Adds package serialization to persist important data across sessions. (PRs [#8](https://github.com/robbawebba/night-light/pull/8) and [#10](https://github.com/robbawebba/night-light/pull/10))
+* Removes the alert for any ENOENT errors since they were a little excessive. (PR [#9](https://github.com/robbawebba/night-light/pull/9))
+
+###### Bug Fixes
+* Package now observes any changes to the package location settings and updates themes accordingly. (PR [#6](https://github.com/robbawebba/night-light/pull/6))
+
 ## 1.0.1 - 1 May 2017 - First Patch!
 This patch, although small, will hopefully improve the use of the package settings! It's been awhile since the release of this package, so I thought it would be a good time to release a patch :smile:
 ###### Bug Fixes
