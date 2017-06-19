@@ -1,3 +1,11 @@
+## 1.0.3 - 19 June 2017 
+This update addresses a number of bugs with the previous release. Sorry about that! As always, feel free to report an issue if you notice something wrong. Thanks! :smile:
+
+###### Bug Fixes
+* Fixed an issue where some themes (such as base16) were missing from the package settings (PR [#12](https://github.com/robbawebba/night-light/pull/12))
+* Fixed a bug where `main` was undefined in `locationChange()` (PR [#12](https://github.com/robbawebba/night-light/pull/12))
+* Converted `config.json` to a commonJS module in `config.js` (PR [#12](https://github.com/robbawebba/night-light/pull/12))
+
 ## 1.0.2 - 15 June 2017 
 Although I haven't heard from any users on this issue, I noticed with my last update that the package settings had reset to their default values after updating. I didn't anticipate this being an issue since the user's custom settings (Day and Night themes being the most important) are stored in their `config.cson` file. So this prompted me to add serialization to the package so certain data persists across Atom sessions. If anyone notices something funky with this update, could you please create an issue on the repository? Thanks! :smile:
 ###### Features 
