@@ -1,0 +1,18 @@
+language: objective-c
+
+env:
+  matrix:
+    - ATOM_CHANNEL=stable
+    - ATOM_CHANNEL=beta
+
+matrix:
+  include:
+    - os: osx
+      osx_image: xcode7.2
+
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+
+script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'

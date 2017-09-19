@@ -1,4 +1,5 @@
 # Night Light
+![Build Status](https://travis-ci.org/robbawebba/night-light.svg?branch=develop)
 ## Heliocentrism where it matters most.
 Night Light automatically updates your Atom themes with each sunrise and sunset to help reduce eyestrain while you're hard at work!
 ![night-light](https://cloud.githubusercontent.com/assets/10067384/24683545/bed6aec4-196d-11e7-9d89-0182b7e73a7a.png)
