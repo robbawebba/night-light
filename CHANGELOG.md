@@ -1,4 +1,11 @@
-## 1.0.3 - 19 June 2017 
+## 1.0.4 - 24 October 2017
+I can't believe the last release was 4 months ago! Sorry for the wait everyone! I hope you have been enjoying the package in the meantime. This update includes a bug fix that should fix any scheduling anomalies you might've noticed with the app. Enjoy!
+
+###### Bug Fixes
+* Fixed funky scheduling errors caused by failed requests to the Google Maps API (PR [#14](https://github.com/robbawebba/night-light/pull/14))
+* Added Travis CI builds (PR [#7](https://github.com/robbawebba/night-light/pull/7))
+
+## 1.0.3 - 19 June 2017
 This update addresses a number of bugs with the previous release. Sorry about that! As always, feel free to report an issue if you notice something wrong. Thanks! :smile:
 
 ###### Bug Fixes
@@ -6,9 +13,10 @@ This update addresses a number of bugs with the previous release. Sorry about th
 * Fixed a bug where `main` was undefined in `locationChange()` (PR [#12](https://github.com/robbawebba/night-light/pull/12))
 * Converted `config.json` to a commonJS module in `config.js` (PR [#12](https://github.com/robbawebba/night-light/pull/12))
 
-## 1.0.2 - 15 June 2017 
+## 1.0.2 - 15 June 2017
 Although I haven't heard from any users on this issue, I noticed with my last update that the package settings had reset to their default values after updating. I didn't anticipate this being an issue since the user's custom settings (Day and Night themes being the most important) are stored in their `config.cson` file. So this prompted me to add serialization to the package so certain data persists across Atom sessions. If anyone notices something funky with this update, could you please create an issue on the repository? Thanks! :smile:
-###### Features 
+
+###### Features
 * Adds package serialization to persist important data across sessions. (PRs [#8](https://github.com/robbawebba/night-light/pull/8) and [#10](https://github.com/robbawebba/night-light/pull/10))
 * Removes the alert for any ENOENT errors since they were a little excessive. (PR [#9](https://github.com/robbawebba/night-light/pull/9))
 
@@ -17,6 +25,7 @@ Although I haven't heard from any users on this issue, I noticed with my last up
 
 ## 1.0.1 - 1 May 2017 - First Patch!
 This patch, although small, will hopefully improve the use of the package settings! It's been awhile since the release of this package, so I thought it would be a good time to release a patch :smile:
+
 ###### Bug Fixes
 * Changes to the nighttime and daytime themes in package settings now update the editor themes accordingly (See PR [#5](https://github.com/robbawebba/night-light/pull/5))
 
@@ -25,6 +34,7 @@ This patch, although small, will hopefully improve the use of the package settin
 * Update `package.json` with new keywords
 
 ## 1.0.0 - 6 April 2017 - First public release!
+
 ###### Features
 * **:round_pushpin: Automatic or manual location updating**
 
