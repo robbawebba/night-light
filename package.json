@@ -1,7 +1,7 @@
 {
   "name": "night-light",
   "main": "./lib/night-light",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "description": "Heliocentric theme manager - automatically change themes with each sunset and sunrise.",
   "keywords": [
     "atom",
