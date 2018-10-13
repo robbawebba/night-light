@@ -1,3 +1,9 @@
+## 1.0.5 - 13 October 2018
+This update fixes a bug that breaks the package when disabling location auto-updates. Thanks to @lincolnanders5 and @user00101010 for your help in reproducing this bug!
+
+###### Bug Fixes
+* Fixed undefined reference error that occurs when disabling auto-location updates (PR [#16](https://github.com/robbawebba/night-light/pull/16))
+
 ## 1.0.4 - 24 October 2017
 I can't believe the last release was 4 months ago! Sorry for the wait everyone! I hope you have been enjoying the package in the meantime. This update includes a bug fix that should fix any scheduling anomalies you might've noticed with the app. Enjoy!
 
